@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+
+header {
+    width: 100%;
+    height: 444px;
+    background-image: url(../img/head.png);
+    /* color: rgb(255, 255, 255); */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    margin: 43px 0px 18px 0px;
+    position: relative;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: #15b87d;
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: repeat;
+    /* background-size: 100% 100%; */
+    padding: 0px;
+    /* background-attachment: fixed; */
+    margin: 0px;
+    position: relative;
+    font-size: medium;
+    text-shadow: 1px 1px 0px rgb(0, 75, 161);
+    font-family: "Patrick Hand", cursive, sans-serif, cursive, A, sans-serif;
+}
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff00cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #ff00dd}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#mynavbar {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin-bottom: 30px;
+    text-shadow: none;
+    color: rgb(247, 109, 109);
+    /* top: 0px; */
+    /* margin: 0px; */
+    /* position: relative; */
+    /* margin-top: -62px; */
+    /* z-index: 333; */
+    /* position: absolute; */
+    /* top: 0px; */
+    /* border-radius: 0px 0px 10px 10px; */
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    font-size: x-large;
+    /* border-bottom: solid 2px rgb(148, 255, 253); */
+}
+
+.mempelai h3 {
+    margin: 0px;
+}
+
+.mempelai {
+    font-size: x-large;
+    border: dashed 4px rgb(6, 147, 237);
+    padding: 15px 0px;
+    border-radius: 20px;
+    /* border-bottom-left-radius: 0px; */
+    /* border-bottom-right-radius: 0; */
+    /* border-bottom: solid 5px rgb(242, 80, 121); */
+    /* width: 50%; */
+    margin: 15px;
+    color: rgb(223, 238, 255);
+    /* text-shadow: 2px 2px 5px black; */
+    background-color: rgba(34, 127, 186, 1);
+    /* background: linear-gradient(90deg, #EB3F6B 0, #F5577F 50%, #EB3F6B 100%); *//* W3C */;/* W3C */;
+}
+
+#lokasi {
+    text-align: center;
+    /* background-color: rgb(210, 228, 200); */
+    margin: 0px;
+}
+
+#lokasi h2 {
+    /* padding: 13px 0px; */
+    /* z-index: 888; */
+    /* background-color: rgba(240, 41, 41, 1); */
+    /* border-radius: 10px; */
+    /* margin: 0px auto; */
+    /* color: rgb(255, 255, 255); */
+}
+
+
+#widget_slider ol.carousel-indicators > li {
+    /* vertical-align: bottom; */
+    margin-top: 163px;
+    /* position: absolute; */
+}
+
+#mynavbar li a {
+    /* margin-bottom: -3px; */
+    /* display: inline-block; */
+    /* border-radius: 0px; */
+    /* height: 12px; */
+    padding: 0px 8px;
+    border-radius: 10px;
+    background-color: rgb(223, 238, 255);
+    margin: 0px 10px;
+}
+
+.nav-tabs > li> a, .nav-tabs > li> a {
+    box-shadow: none;
+    color: inherit;
+}
+
+#widget_slider .carousel-control {
+    background: none;
+    z-index: 10;
+}
+
+footer {
+    margin: 30px 0px 0px 0px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 7px;
+    /* color: rgb(69, 54, 7); */
+    /* font-size: small; */
+    /* text-shadow: none; */
+}
+
+.container {
+    text-align: center;
+}
+
+#mynavbar li.active {
+    /* background-color: rgb(255, 255, 255); */
+    /* color: white; */
+    /* -webkit-box-shadow: inset 0 -2px 0 #2E90FF; */
+    /* box-shadow: inset 0 -2px 0 #2E90FF; */
+    /* border-radius: 0px; */
+    /* color: black; */
+}
+
+.luar {
+    /* overflow: hidden; */
+    /* background-color: #8ED1FF; */
+    /* margin: 100px auto; */
+    width: 100%;
+    max-width: 900px;
+    padding: 0px;
+    /* color: rgb(255, 255, 255); */
+    /* padding-top: 72px; */
+    padding-bottom: 30px;
+    position: relative;
+    /* border: solid 10px rgba(255, 255, 255, 0.55); */
+    /* border-radius: 10px; */
+    /* box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.82); */
+}
+
+.tab-content {
+    /* font-family: sans-serif, verdana, cursive, sans-serif; */
+    /* color: rgb(0, 119, 255); */
+    font-size: x-large;
+    /* background-color: rgb(31, 31, 31); */
+    margin: 0px;
+    padding: 6px 30px;
+}
+
+header h1 {
+    padding-top: 344px;
+    left: auto;
+    margin: 0px;
+    color: rgb(223, 238, 255);
+    text-align: center;
+}
+
+#widget_slider {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    position: relative;
+}
+
+a {
+    color: rgb(255, 194, 0);
+}
+@media screen and (max-width: 450px) {
+    #mynavbar {
+        font-size: medium;
+    }
+    header h1{
+    padding-top: 161px;
+
+    }
+    .tab-content
+    {
+        font-size: medium;
+    }
+    header
+    {
+    height: 235px;
+
+    }
+	.button {
+	  display: inline-block;
+	  padding: 3px 6px;
+	  font-size: 10px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #fff;
+	  background-color: #ff00cc;
+	  border: none;
+	  border-radius: 8px;
+	  box-shadow: 0 5px #999;
+	  width: auto;
+	  height: 5px;
+	}
+
+}
